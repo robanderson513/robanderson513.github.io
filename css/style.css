@@ -1,13 +1,18 @@
 @import "./theme.css";
+@import "./header.css";
+
 body {
   padding: 0 2rem;
 }
 
 .personal-detail-container {
   display: flex;
+  margin-top: 64px;
+  height: 900px;
 }
 
 .background-photo {
+  max-height: 700px;
   width: calc(100vw - 180px);
   margin: 48px 0 0 116px;
   position: absolute;
@@ -26,6 +31,8 @@ body {
 }
 
 .profile-photo {
+  height: 500px;
+  width: 500px;
   border-radius: 50%;
   border: solid 1rem #303030;
 }
@@ -47,6 +54,6 @@ body {
   font-size: 36px;
 }
 
-.test-height {
-  height: 700px;
+.section {
+  min-height: 800px;
 }
