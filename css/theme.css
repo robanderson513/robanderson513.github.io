@@ -2,13 +2,28 @@ h1,
 p {
   font-family: "Roboto", sans-serif;
 }
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
 
 h1 {
   font-size: 80px;
-  color: #1e80ff;
+  color: #26a5ff;
+}
+
+button {
+  cursor: pointer;
+  background-color: #26a5ff;
+  transition: linear 0.25s;
+}
+
+button:hover {
+  background-color: #5fe7ff;
 }
 
 h2,
+h3,
 p {
   color: #ffffff;
 }
