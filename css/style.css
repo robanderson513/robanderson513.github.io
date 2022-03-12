@@ -36,14 +36,14 @@ body {
   gap: 2rem;
 }
 
-.personal-links-container > button {
+.personal-links-container > a > button {
   width: 64px;
   height: 64px;
   border-radius: 50%;
   border: none;
 }
 
-.personal-links-container > button > svg {
+.personal-links-container > a > button > svg {
   font-size: 36px;
 }
 
