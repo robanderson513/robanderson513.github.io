@@ -1,1 +1,11 @@
 @import "./theme.css";
+
+.profile-photo {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.test-height {
+  height: 700px;
+}
