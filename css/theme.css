@@ -1,8 +1,22 @@
-h1 {
+h1,
+p {
   font-family: "Roboto", sans-serif;
-  color: #2d98ff;
+}
+
+h1 {
+  font-size: 80px;
+  color: #1e80ff;
+}
+
+h2,
+p {
+  color: #ffffff;
 }
 
 body {
   background-color: #303030;
+}
+
+.secondary-background {
+  background-color: #424242;
 }

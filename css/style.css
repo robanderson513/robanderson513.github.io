@@ -1,9 +1,28 @@
 @import "./theme.css";
+body {
+  padding: 0 2rem;
+}
+
+.personal-detail-container {
+  display: flex;
+}
+
+.background-photo {
+  width: calc(100vw - 180px);
+  margin: 48px 0 0 116px;
+  position: absolute;
+  z-index: -1;
+}
+
+.personal-detail-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
 
 .profile-photo {
-  width: 320px;
-  height: 320px;
   border-radius: 50%;
+  border: solid 1rem #303030;
 }
 
 .test-height {
