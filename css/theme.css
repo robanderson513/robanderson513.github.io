@@ -1,5 +1,10 @@
+body {
+  background-color: #303030;
+}
+
 h1,
-p {
+p,
+a {
   font-family: "Roboto", sans-serif;
 }
 h2,
@@ -26,8 +31,4 @@ h2,
 h3,
 p {
   color: #ffffff;
-}
-
-body {
-  background-color: #303030;
 }
