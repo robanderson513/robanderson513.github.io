@@ -1,0 +1,88 @@
+@import "./theme.css";
+@import "./header.css";
+
+body {
+  padding: 0 2rem;
+}
+
+.personal-detail-container {
+  display: flex;
+  margin-top: 64px;
+  height: 900px;
+}
+
+.background-photo {
+  max-height: 700px;
+  width: calc(100vw - 180px);
+  margin: 48px 0 0 116px;
+  position: absolute;
+  z-index: -1;
+}
+
+.personal-detail-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.personal-detail-text > h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.profile-photo {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: solid 1rem #303030;
+}
+
+.personal-links-container {
+  display: flex;
+  align-content: space-between;
+  gap: 2rem;
+}
+
+.personal-links-container > a > button {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: none;
+}
+
+.personal-links-container > a > button > svg {
+  font-size: 36px;
+}
+
+.section {
+  padding-top: 48px;
+  min-height: 800px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .profile-photo {
+    height: 350px;
+    width: 350px;
+  }
+
+  .personal-detail-text > h1 {
+    font-size: 64px;
+  }
+
+  .personal-detail-text > h2 {
+    font-size: 20px;
+  }
+
+  .personal-detail-text > h3 {
+    font-size: 16px;
+  }
+
+  .personal-links-container > a > button {
+    width: 36px;
+    height: 36px;
+  }
+
+  .personal-links-container > a > button > svg {
+    font-size: 24px;
+  }
+}
